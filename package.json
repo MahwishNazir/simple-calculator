@@ -4,7 +4,9 @@
   "description": "a simple calculator with typescript, node js and inqurier",
   "main": "index.js",
   "type": "module",
-  "bin": "index.js",
+  "bin": {
+    "simple-calculator-01-insha": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
